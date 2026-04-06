@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 96%;
+    --foreground: 220 25% 10%;
+    --card: 220 18% 99%;
+    --card-foreground: 220 25% 10%;
+    --popover: 220 18% 99%;
+    --popover-foreground: 220 25% 10%;
+    --primary: 217 91% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 16% 91%;
+    --secondary-foreground: 220 20% 25%;
+    --muted: 220 14% 93%;
+    --muted-foreground: 220 10% 46%;
+    --accent: 217 80% 94%;
+    --accent-foreground: 217 85% 38%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 16% 87%;
+    --input: 220 16% 87%;
+    --ring: 217 91% 55%;
+    --radius: 0rem;
+    --glass: 220 25% 98% / 0.72;
+    --glass-border: 220 20% 78% / 0.25;
+    --blue-glow: 217 90% 58% / 0.12;
+    --surface-elevated: 220 18% 100%;
+    --surface-sunken: 220 18% 93%;
+    --blue-50: 217 90% 97%;
+    --blue-100: 217 85% 92%;
+    --blue-200: 217 80% 82%;
+    --blue-300: 217 78% 68%;
+    --blue-400: 217 85% 58%;
+    --blue-500: 217 91% 55%;
+    --blue-600: 217 90% 45%;
+    --blue-700: 217 88% 34%;
+    --sidebar-background: 220 22% 94%;
+    --sidebar-foreground: 220 20% 22%;
+    --sidebar-primary: 217 91% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 217 80% 94%;
+    --sidebar-accent-foreground: 217 85% 38%;
+    --sidebar-border: 220 16% 87%;
+    --sidebar-ring: 217 91% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'DM Sans', 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.011em;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'DM Sans', 'Inter', system-ui, sans-serif;
+    letter-spacing: -0.025em;
+    font-weight: 600;
+  }
+  p, span, label, a, li, td, th, dt, dd, figcaption {
+    letter-spacing: -0.011em;
+  }
+  button {
+    font-family: inherit;
+    letter-spacing: -0.011em;
+  }
+  input, textarea, select {
+    font-family: inherit;
+    letter-spacing: -0.011em;
+  }
+  code, pre {
+    font-family: 'SF Mono', 'JetBrains Mono', monospace;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    background: hsla(var(--glass));
+    border: 1px solid hsla(var(--glass-border));
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+  .surface-elevated {
+    background: hsl(var(--surface-elevated));
+    border: 1px solid hsl(var(--border));
+  }
+  .surface-sunken {
+    background: hsl(var(--surface-sunken));
+  }
+  .glow-blue {
+    box-shadow: 0 0 40px hsla(var(--blue-glow)),
+                0 0 80px hsla(213 80% 60% / 0.08);
+  }
+  .text-gradient-blue {
+    background: linear-gradient(135deg, hsl(var(--blue-400)), hsl(var(--blue-600)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  /* Wave loader */
+  .wave-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .wave-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      hsla(213, 80%, 60%, 0.05) 0%,
+      hsla(213, 80%, 60%, 0.12) 50%,
+      hsla(213, 80%, 60%, 0.05) 100%
+    );
+    animation: wave-shimmer 2.5s ease-in-out infinite;
+  }
+  .wave-line {
+    position: absolute;
+    width: 200%;
+    height: 2px;
+    left: -50%;
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      hsla(213, 80%, 70%, 0.6) 25%,
+      hsla(213, 80%, 90%, 0.9) 50%,
+      hsla(213, 80%, 70%, 0.6) 75%,
+      transparent 100%
+    );
+  }
+  .wave-line-1 {
+    top: 30%;
+    animation: wave-move 3s ease-in-out infinite;
+  }
+  .wave-line-2 {
+    top: 50%;
+    animation: wave-move 3s ease-in-out infinite 0.5s;
+  }
+  .wave-line-3 {
+    top: 70%;
+    animation: wave-move 3s ease-in-out infinite 1s;
+  }
+  @keyframes wave-shimmer {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 1; }
+  }
+  @keyframes wave-move {
+    0% { transform: translateX(-25%) scaleY(1); }
+    25% { transform: translateX(-10%) scaleY(2.5); }
+    50% { transform: translateX(0%) scaleY(1); }
+    75% { transform: translateX(10%) scaleY(2.5); }
+    100% { transform: translateX(-25%) scaleY(1); }
+  }
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--border));
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground));
+  }
+}

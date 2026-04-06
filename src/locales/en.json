@@ -1,0 +1,151 @@
+{
+  "app": {
+    "name": "DermaSight",
+    "tagline": "AI-Powered Skin Disease Detection"
+  },
+  "nav": {
+    "analyze": "Analyze",
+    "history": "History",
+    "insights": "Insights",
+    "chat": "Chat",
+    "settings": "Settings"
+  },
+  "header": {
+    "search": "Search diseases, history...",
+    "notifications": "Notifications",
+    "profile": "Dr. User",
+    "supportedDiseases": "Supported Diseases"
+  },
+  "analyze": {
+    "title": "Skin Analysis",
+    "subtitle": "Upload skin image for AI diagnosis",
+    "upload": "Upload Skin Image",
+    "uploadHint": "Drag & drop or click to browse",
+    "uploadFormat": "PNG, JPG up to 10MB",
+    "dropImage": "Drop image here",
+    "analyzeBtn": "Analyze Skin",
+    "newScan": "New Scan",
+    "noAnalysis": "No Analysis Yet",
+    "noAnalysisDesc": "Upload a skin image and click 'Analyze Skin' to receive AI dermatology report.",
+    "aiPowered": "AI Powered",
+    "instantResults": "Instant Results",
+    "secure": "Secure",
+    "analyzing": "Analyzing...",
+    "complete": "complete",
+    "detecting": "Detecting",
+    "processing": "Processing",
+    "analysisComplete": "Analysis Complete",
+    "awaitingAnalysis": "Awaiting analysis..."
+  },
+  "results": {
+    "confidence": "confidence",
+    "diagnosticReport": "Diagnostic Report",
+    "diagnosticConfidence": "Diagnostic Confidence",
+    "processingTime": "Processing Time",
+    "overview": "Overview",
+    "symptoms": "Symptoms",
+    "causes": "Causes",
+    "treatments": "Treatments"
+  },
+  "chat": {
+    "title": "AI Chat",
+    "aiAssistant": "AI Assistant",
+    "dermatologyAssistant": "Dermatology Assistant",
+    "placeholder": "Type your question here...",
+    "welcome": "Hello! I'm your AI dermatology assistant. Do you have any questions about the skin image?"
+  },
+  "language": {
+    "en": "English",
+    "fr": "French",
+    "rw": "Kinyarwanda",
+    "sw": "Swahili"
+  },
+  "userType": {
+    "doctor": "Doctor",
+    "patient": "Patient",
+    "non_doctor": "Patient"
+  },
+  "errors": {
+    "analysisFailed": "Analysis Failed",
+    "tryAgain": "Try Again"
+  },
+  "history": {
+    "title": "Analysis History",
+    "comingSoon": "Coming Soon",
+    "desc": "View all your previous skin analysis results and track your progress over time.",
+    "features": {
+      "title": "Key Features",
+      "results": "Previous analysis results",
+      "pdf": "Export reports as PDF",
+      "trends": "View analysis trends",
+      "share": "Share results with doctors"
+    },
+    "advanced": {
+      "title": "Advanced Tools",
+      "tracking": "Treatment progress tracking",
+      "treatment": "Personalized treatment plans",
+      "doctor": "Share with your doctor",
+      "export": "Export all data"
+    }
+  },
+  "insights": {
+    "title": "Health Insights",
+    "subtitle": "Your personalized analytics and trends",
+    "comingSoon": "Coming Soon",
+    "desc": "Get comprehensive insights into your skin health patterns, risk factors, and progress over time.",
+    "basic": {
+      "title": "Basic Analytics",
+      "trends": "Analysis trends",
+      "risk": "Risk assessment",
+      "treatment": "Treatment effectiveness",
+      "charts": "Interactive charts"
+    },
+    "advanced": {
+      "title": "Advanced Features",
+      "ai": "AI predictions",
+      "population": "Population benchmarks",
+      "benchmark": "Personal benchmarks",
+      "dashboards": "Custom dashboards"
+    },
+    "premium": {
+      "title": "Premium Insights",
+      "desc": "Unlock advanced analytics and AI-powered predictions",
+      "cta": "Upgrade to Premium"
+    }
+  },
+  "aiTrends": "AI Trends",
+  "realTime": "Real-time",
+  "premium": "Premium",
+  "comingSoon": "Coming Soon",
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your preferences",
+    "profile": "Profile",
+    "language": "Language",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "aiModel": "AI Model",
+    "reports": "Reports",
+    "quickSetup": "Quick Setup",
+    "quickSetupDesc": "Configure core preferences in 2 minutes"
+  },
+  "comingSoon.soon": "Coming soon",
+  "available": "Available",
+  "manage": "Manage",
+  "getStarted": "Get Started",
+  "skip": "Skip",
+  "onboarding": {
+    "title": "Welcome to DermaSight",
+    "subtitle": "AI-powered skin health revolution starts now",
+    "dermaSight": "Transformative AI Dermatology",
+    "features": [
+      "Instant AI analysis",
+      "Multi-language support",
+      "Doctor & patient modes",
+      "Secure & private",
+      "Coming soon: History, Insights & more"
+    ],
+    "cta": "Start Your First Scan",
+    "dismiss": "Explore App"
+  }
+}

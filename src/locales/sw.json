@@ -1,0 +1,151 @@
+{
+  "app": {
+    "name": "DermaSight",
+    "tagline": "Ugunduzi wa magonjwa ya ngozi kwa AI"
+  },
+  "nav": {
+    "analyze": "Changanua",
+    "history": "Historia",
+    "insights": "Maarifa",
+    "chat": "Chat",
+    "settings": "Mipangilio"
+  },
+  "header": {
+    "search": "Tafuta magonjwa, historia...",
+    "notifications": "Taarifa",
+    "profile": "Dr. User",
+    "supportedDiseases": "Magonjwa Yanayotambuliwa"
+  },
+  "analyze": {
+    "title": "Uchambuzi wa Ngozi",
+    "subtitle": "Pakia picha ya ngozi kwa uchunguzi wa AI",
+    "upload": "Pakia Picha ya Ngozi",
+    "uploadHint": "Buruta au bonyeza kuchagua",
+    "uploadFormat": "PNG, JPG hadi 10MB",
+    "dropImage": "Acha picha hapa",
+    "analyzeBtn": "Chambua Ngozi",
+    "newScan": "Uchambuzi Mpya",
+    "noAnalysis": "Hakuna Uchambuzi Bado",
+    "noAnalysisDesc": "Pakia picha ya ngozi na ubonyeze 'Chambua Ngozi' kupata ripoti ya AI.",
+    "aiPowered": "Inaendeshwa na AI",
+    "instantResults": "Matokeo ya Papo hapo",
+    "secure": "Salama",
+    "analyzing": "Inachambua...",
+    "complete": "Imekamilika",
+    "detecting": "Inagundua",
+    "processing": "Inachakata",
+    "analysisComplete": "Uchambuzi Umekamilika",
+    "awaitingAnalysis": "Inasubiri uchambuzi..."
+  },
+  "results": {
+    "confidence": "Uaminifu",
+    "diagnosticReport": "Ripoti ya Uchambuzi",
+    "diagnosticConfidence": "Uaminifu wa Uchambuzi",
+    "processingTime": "Muda wa Kuchakata",
+    "overview": "Muhtasari",
+    "symptoms": "Dalili",
+    "causes": "Sababu",
+    "treatments": "Matibabu"
+  },
+  "chat": {
+    "title": "Mazungumzo ya AI",
+    "aiAssistant": "Msaidizi wa AI",
+    "dermatologyAssistant": "Msaidizi wa Ngozi",
+    "placeholder": "Andika swali lako hapa...",
+    "welcome": "Habari! Mimi ni msaidizi wako wa AI wa ngozi. Una maswali kuhusu picha ya ngozi?"
+  },
+  "language": {
+    "en": "Kiingereza",
+    "fr": "Kifaransa",
+    "rw": "Kinyarwanda",
+"sw": "Kiswahili"
+  },
+  "userType": {
+    "doctor": "Daktari",
+    "patient": "Mgonjwa",
+    "non_doctor": "Si Daktari"
+  },
+  "errors": {
+    "analysisFailed": "Uchambuzi Umeshindikana",
+    "tryAgain": "Jaribu Tena"
+  },
+  "history": {
+    "title": "Historia ya Uchambuzi",
+    "comingSoon": "Inakuja Hivi Karibuni",
+    "desc": "Angalia matokeo yako yote ya uchambuzi wa ngozi na fuatilia maendeleo yako kwa wakati.",
+    "features": {
+      "title": "Vipengele Muhimu",
+      "results": "Matokeo ya awali",
+      "pdf": "Hamisha ripoti kama PDF",
+      "trends": "Angalia mwenendo wa uchambuzi",
+      "share": "Shiriki matokeo na madaktari"
+    },
+    "advanced": {
+      "title": "Zana za Juu",
+      "tracking": "Ufuatiliaji wa maendeleo ya matibabu",
+      "treatment": "Mipango ya matibabu ya kibinafsi",
+      "doctor": "Shiriki na daktari wako",
+      "export": "Hamisha data zote"
+    }
+  },
+  "insights": {
+    "title": "Maarifa ya Afya",
+    "subtitle": "Uchambuzi wako wa kibinafsi na mwenendo",
+    "comingSoon": "Inakuja Hivi Karibuni",
+    "desc": "Pata maarifa kamili kuhusu mifumo yako ya afya ya ngozi, sababu za hatari, na maendeleo yako kwa wakati.",
+    "basic": {
+      "title": "Uchambuzi wa Msingi",
+      "trends": "Mwenendo wa uchambuzi",
+      "risk": "Tathmini ya hatari",
+      "treatment": "Ufanisi wa matibabu",
+      "charts": "Chati zinazoingiliana"
+    },
+    "advanced": {
+      "title": "Vipengele vya Juu",
+      "ai": "Utabiri wa AI",
+      "population": "Vigezo vya idadi ya watu",
+      "benchmark": "Vigezo vyako binafsi",
+      "dashboards": "Dashibodi maalum"
+    },
+    "premium": {
+      "title": "Maarifa ya Premium",
+      "desc": "Fungua uchambuzi wa hali ya juu na utabiri wa AI",
+      "cta": "Boresha hadi Premium"
+    }
+  },
+  "aiTrends": "Mwenendo wa AI",
+  "realTime": "Muda halisi",
+  "premium": "Premium",
+  "comingSoon": "Inakuja Hivi Karibuni",
+  "settings": {
+    "title": "Mipangilio",
+    "subtitle": "Dhibiti mapendeleo yako",
+    "profile": "Wasifu",
+    "language": "Lugha",
+    "notifications": "Arifa",
+    "privacy": "Faragha",
+    "aiModel": "Muundo wa AI",
+    "reports": "Ripoti",
+    "quickSetup": "Mipangilio ya Haraka",
+    "quickSetupDesc": "Sanidi mapendeleo muhimu kwa dakika 2"
+  },
+  "comingSoon.soon": "Inakuja hivi karibuni",
+  "available": "Inapatikana",
+  "manage": "Dhibiti",
+  "getStarted": "Anza",
+  "skip": "Ruka",
+  "onboarding": {
+    "title": "Karibu DermaSight",
+    "subtitle": "Mapinduzi ya afya ya ngozi yanayotumia AI yanaanza sasa",
+    "dermaSight": "Dermatolojia ya AI Inayobadilisha",
+    "features": [
+      "Uchambuzi wa AI wa papo hapo",
+      "Msaada wa lugha nyingi",
+      "Hali za daktari na mgonjwa",
+      "Salama na ya faragha",
+      "Inakuja: Historia, Maarifa na zaidi"
+    ],
+    "cta": "Anza Uchambuzi Wako wa Kwanza",
+    "dismiss": "Gundua Programu"
+  }
+}

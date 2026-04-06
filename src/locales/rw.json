@@ -1,0 +1,151 @@
+{
+  "app": {
+    "name": "DermaSight",
+    "tagline": "Kupima Indwara z'Uruhu n'AI"
+  },
+  "nav": {
+    "analyze": "Isesengura",
+    "history": "Amateka",
+    "insights": "Ibyavuye mu Isesengura",
+    "chat": "Ibiganiro",
+    "settings": "Igenamiterere"
+  },
+  "header": {
+    "search": "Shakisha indwara, amateka...",
+    "notifications": "Imenyesha",
+    "profile": "Muganga User",
+    "supportedDiseases": "Indwara Zishyirikwa"
+  },
+  "analyze": {
+    "title": "Isesengura ry'Uruhu",
+    "subtitle": "Ohereza ishusho y'uruhu kugira ngo AI ipime",
+    "upload": "Ohereza Ishusho y'Uruhu",
+    "uploadHint": "Kurura hanyuma usige cyangwa kanda ubure",
+    "uploadFormat": "PNG, JPG kugeza kuri 10MB",
+    "dropImage": "Sigira ishusho hano",
+    "analyzeBtn": "Sesengura Uruhu",
+    "newScan": "Isesengura Rishya",
+    "noAnalysis": "Nta Sesengura Rikorerwa",
+    "noAnalysisDesc": "Ohereza ishusho y'uruhu hanyuma ukande 'Sesengura Uruhu' kugira ngo ubone raporo ya AI.",
+    "aiPowered": "Ikoresheje AI",
+    "instantResults": "Ibisubizo Byihuse",
+    "secure": "Umutekano",
+    "analyzing": "Irasesengura...",
+    "complete": "Byarangiye",
+    "detecting": "Irarapima",
+    "processing": "Irateganywa",
+    "analysisComplete": "Isesengura Ryarangiye",
+    "awaitingAnalysis": "Kuri sesengurwa..."
+  },
+  "results": {
+    "confidence": "Uruhushya",
+    "diagnosticReport": "Raporo y'Isesengura",
+    "diagnosticConfidence": "Uruhushya rw'Isesengura",
+    "processingTime": "Igihe cyo Guteganywa",
+    "overview": "Incamake",
+    "symptoms": "Ibiranga",
+    "causes": "Impamvu",
+    "treatments": "Ubuvuzi"
+  },
+  "chat": {
+    "title": "Ibiganiro AI",
+    "aiAssistant": "Umufasha AI",
+    "dermatologyAssistant": "Umufasha wa Dermatoloji",
+    "placeholder": "Andika ikibazo cyawe hano...",
+    "welcome": "Muraho! Ndi umufasha wa AI mu by'uruhu. Ese ufite ikibazo kuri iyi shusho y'uruhu?"
+  },
+  "language": {
+    "en": "Icyongereza",
+    "fr": "Igifaransa",
+    "rw": "Ikinyarwanda",
+    "sw": "Igiswahiri"
+  },
+  "userType": {
+    "doctor": "Umuganga",
+    "patient": "Umurwayi",
+    "non_doctor": "Umurwayi"
+  },
+  "errors": {
+    "analysisFailed": "Isesengura Rimanitse",
+    "tryAgain": "Ongera Ugerageze"
+  },
+  "history": {
+    "title": "Amateka y'Isesengura",
+    "comingSoon": "Biri mu Nyigo",
+    "desc": "Reba ibisubizo by'isesengura ryawe ryakozwe mbere hanyuma ukurikire iterambere ryawe.",
+    "features": {
+      "title": "Ibiranga By'ingenzi",
+      "results": "Ibisubizo byakozwe mbere",
+      "pdf": "Sohora raporo nka PDF",
+      "trends": "Reba imiterere y'ibisesengura",
+      "share": "Sangiza ibisubizo n'abaganga"
+    },
+    "advanced": {
+      "title": "Ibikoresho Byihariye",
+      "tracking": "Gukurikirana ubuvuzi",
+      "treatment": "Gahunda z'ubuvuzi zihariye",
+      "doctor": "Sangiza n'umuganga wawe",
+      "export": "Sohora amakuru yose"
+    }
+  },
+  "insights": {
+    "title": "Ibyavuye mu Isesengura ry'Ubuzima",
+    "subtitle": "Isesengura n'imiterere byawe bwite",
+    "comingSoon": "Biri mu Nyigo",
+    "desc": "Kubona ibisobanuro birambuye ku mikorere y'uruhu rwawe, ibyago bishoboka, n'iterambere ryawe mu gihe.",
+    "basic": {
+      "title": "Isesengura Ry'ibanze",
+      "trends": "Imiterere y'ibisesengura",
+      "risk": "Isuzuma ry'ibyago",
+      "treatment": "Ingaruka z'ubuvuzi",
+      "charts": "Ibishushanyo by'imikoranire"
+    },
+    "advanced": {
+      "title": "Ibikoresho Byihariye",
+      "ai": "Ibyavuzwe na AI",
+      "population": "Ugereranyo n'abaturage",
+      "benchmark": "Igereranyo ryawe bwite",
+      "dashboards": "Urubuga rwawe rwihariye"
+    },
+    "premium": {
+      "title": "Ibyavuye mu Isesengura Premium",
+      "desc": "Fungura isesengura rihambaye n'ibyavuzwe na AI",
+      "cta": "Kuzamura kuri Premium"
+    }
+  },
+  "aiTrends": "Imiterere ya AI",
+  "realTime": "Mu gihe nyacyo",
+  "premium": "Premium",
+  "comingSoon": "Biri mu Nyigo",
+  "settings": {
+    "title": "Igenamiterere",
+    "subtitle": "Genga ibyo ukunda",
+    "profile": "Umwirondoro",
+    "language": "Ururimi",
+    "notifications": "Imenyesha",
+    "privacy": "Ibanga",
+    "aiModel": "Moderi ya AI",
+    "reports": "Raporo",
+    "quickSetup": "Igenamiterere Ryihuse",
+    "quickSetupDesc": "Genga ibyo ukunda by'ingenzi mu minota 2"
+  },
+  "comingSoon.soon": "Biri mu Nyigo",
+  "available": "Irahari",
+  "manage": "Genga",
+  "getStarted": "Tangira",
+  "skip": "Reka",
+  "onboarding": {
+    "title": "Murakaza neza kuri DermaSight",
+    "subtitle": "Impinduramatwara mu buzima bw'uruhu ikoresheje AI itangiye ubu",
+    "dermaSight": "AI Ihindura Dermatoloji",
+    "features": [
+      "Isesengura ry'AI ryihuse",
+      "Ururimi rushyigikira indimi nyinshi",
+      "Uburyo bw'umuganga n'umurwayi",
+      "Amakuru arinzwe kandi ibanga ryubahirijwe",
+      "Biri mu Nyigo: Amateka, Ibyavuye mu Isesengura n'ibindi"
+    ],
+    "cta": "Tangira Isesengura Ryawe Ryambere",
+    "dismiss": "Sura Porogaramu"
+  }
+}
